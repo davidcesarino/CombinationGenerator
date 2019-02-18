@@ -5,6 +5,8 @@ If you want to only use the application, without having to compile it, download 
 
 `java -jar combinations.jar`
 
-If you want to print the output to a file, just use your system redirector. For example:
+If you want to print the output to a file, just use your system redirector.
+
+For example, printing a lottery draw to a txt file (“`> m.txt`”):
 
 `java -jar combinations.jar -g -i -r -d "," -k 6 10 12 23 30 39 45 46 > m.txt`
